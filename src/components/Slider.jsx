@@ -4,7 +4,7 @@ function Slider() {
     <Swiper
      
       slidesPerView={1}
-      spaceBetween={40}
+      spaceBetween={334}
       
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
@@ -14,7 +14,7 @@ function Slider() {
       <SwiperSlide><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw724f1225/images/2nd-Scroll-Fabrics-%20(1).JPG" alt="" /></SwiperSlide>
       <SwiperSlide><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw955d424a/images/Second-Scroll.jpg" alt="" /></SwiperSlide>
       ...
-    </Swiper>
+    </Swiper> 
   )
 }
 
